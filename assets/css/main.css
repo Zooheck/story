@@ -8576,3 +8576,9 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+@media (max-width: 620px) {
+	.picture-first {
+		flex-direction: column !important;
+	}
+}
